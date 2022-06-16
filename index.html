@@ -1,48 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 
 <head>
-  <title>CSS Box Styling</title>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" href="./style.css">
-  <link rel="stylesheet" type="text/css" href="./style.css" />
+  <link rel="stylesheet" type="reset" href="./assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  <title>Brandt Davidson | Portfolio</title>
 </head>
 
-<div class="MainHeading"
 <body>
-  <!-- Header -->
   <header>
-    <h1>Heading 1</h1>
-    <p>
-    </p>
+    <h1>Brandt Davidson</h1>
+    <nav id="linkSections">
+      <a href="#aboutMeL" class="btn">About Me</a>
+      <a href="#workL" class="btn">Work</a>
+      <a href="#contactL" class="btn">Contact Me</a>
+      <a href="#contactL" class="btn">Resume</a>
+    </nav>
   </header>
 
-  <!-- Navbar -->
-  <nav id="Links">
-    <a href="#">Nav 1</a>
-    <a href="#">Nav 2</a>
-    <a href="#">Nav 3</a>
-    <a href="#">Nav 4</a>
-  </nav>
+  <div class="wide"></div>
+  <div class="container1"></div>
+  <div class="avatarcontain">
+    <img class="ava" src="./assets/images/avatar.png" alt="Avatar of Brandt Davidson for portfolio">
+  </div>
 
-</div>
-
-  <!-- Body -->
   <main>
-    <!-- Product Cards -->
-    <div class="products">
+    <div id="aboutMeL"></div>
+    <section class="aboutMe">
+      <h2>About Me</h2>
+      <p> Thank you for visiting my portfolio!
+        My name is Brandt Davidson, and I'm currently located in Missoula, Montana. I just recently graduated from the
+        University of Arizona, with a BS in Biochemistry. Currently, I'm taking an intensive Bootcamp course which has
+        allowed me to strengthen my HTML, and CSS skills in the first week.
+      </p>
+    </section>
+
+    <div id="workL"></div>
+    <section class="work">
+      <h2>Work</h2>
+      <p>Below are some of my recently deployed applications and current projects!</p>
+    </section>
+
+    <div class="applications">
       <section class="card">
-        
+        <h2>Project 1</h2>
+          <a href="https://brandtdavidson.github.io/Module-1-Challenge/Develop/index.html"><img src="./assets/css/project1.png" alt="image of challenge 1 for portfolio"/>
+          </a>
+      </section>
+      <section class="card">
+        <h2>Project 2</h2>
+        <a href="https://brandtdavidson.github.io/Module-2-Challenge/index.html">
+        <img src="./assets/css/project2.png" alt="project 2 image" /></a>
+      </section>
+      <section class="card">
+        <h2>Project 3</h2>
+        <img src="./assets/css/project3.png" alt="rolls of toilet paper in a basket" />
       </section>
     </div>
+
+    <div id="contactL"></div>
+    <section class="contactMeResume">
+      <h2>Contact & Resume</h2>
+        <ul>
+        <li><a href="https://www.linkedin.com/in/brandt-davidson-1aa23a22a/">LinkedIn</a></li>
+        <li><a href="https://github.com/BrandtDavidson">GitHub</a></li>
+      </ul>
+    </section>
   </main>
 
-  <!-- Footer -->
+
   <footer>
-    <h3>
-  
-    </h3>
+    <h3><span>🖥 Brandt Davidson, 2022</span></h3>
   </footer>
 </body>
 
